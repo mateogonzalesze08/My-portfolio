@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(9, 9, 9);
+    font-size: xx-large;
+    font-style: arial;
+
+
+}
+
+.dot img {
+    height: 50%;
+    width: 25%;
+    background-color: #010101;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/075/823/original/light-green-background-with-curved-circles-vector.jpg")
+}
+
+.introcontainer {
+    text-align: center;
+}
+
+.btn-group button {
+    justify-content: center;
+  background-color: #e9f0ed; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  
+}
+.btn-group {
+    padding-left: 400px;
+}
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+.pagenumber2{
+    height:70 px;
+    width: 100%;
+    background-color:aliceblue;
+    border-bottom: solid rgb(219, 224, 219) ;
+    border-width: 100px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.aipicture{
+    width: 95%;
+}
+
+.picture{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nhspicture{
+    width: 50%;
+    
+}
+
+.htmlpicture{
+    width: 45%;
+}
+
+.futsalpicture{
+    width: 45%;
+}
+
+.soccerpicture{
+    width: 50%; 
+}
+
+.pagenumber3{
+    height:70 px;
+    width: 100%;
+    background-color:aliceblue;
+    border-bottom: solid rgb(219, 224, 219) ;
+    /* border-width: 100px; */
+   
+}
+
+/* .text-container{
+    min-height: 500px;
+} */
+
+.text{
+    font-size: 25px;
+    width: 325px;
+}
+
+.projects img {
+    width: 280px;
+    height: 280px;
+}
+.projects {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.pagenumber4{
+    height: 70px;
+    width: 100%;
+    background-color:aliceblue;
+    border-bottom: solid rgb(219, 224, 219)
+   }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(249, 248, 252);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #037c6a;
+  padding: 20px;
+}
